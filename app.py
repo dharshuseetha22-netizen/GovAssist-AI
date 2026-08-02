@@ -3,8 +3,9 @@ import os
 from groq import Groq
 
 client = Groq( api_key=os.getenv("GROQ_API_KEY"))
+st.write(os.getenv("GROQ_API_KEY")
 
-st.set_page_config(
+st.set_page_confif(
     page_title="GovAssist AI",
     page_icon="🏛️",
     layout="wide"
